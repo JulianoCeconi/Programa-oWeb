@@ -1,51 +1,61 @@
 .tabela1{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela2{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela3{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela4{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela5{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela6{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela7{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela8{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela9{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tabela10{
     text-align: center;
     background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img1{
@@ -195,4 +205,46 @@
 .img30{
     width: 35px;
     height: 30px;
+}
+
+.div1{
+    float: right;
+    top: 500px;
+    left: 500px;
+}
+
+.classificaçaoGeral{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+.divMenu{
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.logoF1{
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.titulo{
+    position: fixed;
+    top: 15px;
+    right: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+    text-align: center;
+}
+
+.logoFIA{  
+    height: 40px;
+    margin: 5px 1300px 5px 1100px;
 }
