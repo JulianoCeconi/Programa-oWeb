@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Seleção de Pizza</title>
+  <script src="scripts/ex 4 pt 2.js"></script>
+
+</head>
+
+<body>
+    
+  <h1>Seleção de Pizza</h1>
+
+  <form>
+    <h2>Escolha até 4 sabores:</h2>
+    <input type="checkbox" name="sabor" value="Calabresa"> Calabresa<br>
+    <input type="checkbox" name="sabor" value="Mussarela"> Mussarela<br>
+    <input type="checkbox" name="sabor" value="Margherita"> Margherita<br>
+    <input type="checkbox" name="sabor" value="Frango com Catupiry"> Frango com Catupiry<br>
+
+    <h2>Quantos refrigerantes você deseja?</h2>
+    <input type="number" id="num-refri" min="0">
+
+    <button type="button" onclick="calcularTotal()">Calcular</button>
+  </form>
+
+  <h2>Sabores escolhidos:</h2>
+  <p id="sabores-escolhidos"></p>
+
+  <h2>Valor total a pagar:</h2>
+  <p id="valor-total"></p>
+
+</body>
+
+</html>
