@@ -6,8 +6,8 @@ function lerNumero(){
     let vlr1 = Number(inputNumero.value);
 
     let centena = vlr1 / 100;
-    let dezena = vlr1 / 10;
-    let unidade = vlr1 / 1;
+    let dezena = parseInt(vlr1 / 10);
+    let unidade = vlr1 % 1;
 
     h2Resultado.innerHTML = "Centena: " +centena +"<br>"+
                             "Dezena: " +dezena +"<br>"+

@@ -5,13 +5,13 @@ let h2Resultado = document.querySelector("#h2Resultado");
 function calcularConta(){
     let vlr1 = Number(inputValor.value);
 
-    let carlos = Math.floor(vlr1 / 3);
-    let andre = Math.floor(vlr1 / 3);
+    let carlos = vlr1 / 3;
+    let andre = vlr1 / 3;
     let felipe = vlr1 / 3;
 
-    h2Resultado.innerHTML = "Carlos vai pagar R$ "+carlos +"<br>"+
-                            "Andre vai pagar R$ "+andre +"<br>"+
-                            "Felipe vai pagar R$ "+felipe.toFixed(2) +"<br>";
+    h2Resultado.innerHTML = "Carlos vai pagar: R$ "+carlos.toFixed(0) +"<br>"+
+                            "Andre vai pagar: R$ "+andre.toFixed(0) +"<br>"+
+                            "Felipe vai pagar: R$ "+felipe.toFixed(2) +"<br>";
 }
 
 btCalcular.onclick = function(){
